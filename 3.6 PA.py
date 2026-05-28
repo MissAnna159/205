@@ -18,7 +18,9 @@ def functionThree(Answer):
         print("The sum is 5 or less.")
 
 def main():
+    #print student ID
     StudentID()
+    #store the result from functionTwo as answer
     Answer = functionTwo()
     functionThree(Answer)
     ID = 9896
