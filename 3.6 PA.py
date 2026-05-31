@@ -16,15 +16,16 @@ def functionThree(Answer):
         print("The sum is greater than 5.")
     else:
         print("The sum is 5 or less.")
-
+    ID = 9896
+    print(f'functionThree returned the value of {ID}.')
+    
 def main():
     #print student ID
     StudentID()
     #store the result from functionTwo as answer
     Answer = functionTwo()
     functionThree(Answer)
-    ID = 9896
-    print(f'functionThree returned the value of {ID}.')
+  
 
 main()
 
